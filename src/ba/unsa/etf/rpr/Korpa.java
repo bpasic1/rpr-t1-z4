@@ -4,6 +4,10 @@ public class Korpa {
     private Artikl[] artikli = new Artikl[50]; //max 50 zadato
     private int br= 0;
 
+    public int getBr() {
+        return br;
+    }
+
     public boolean dodajArtikl(Artikl a){
         if(br >= 50)
             return false;
